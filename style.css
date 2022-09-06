@@ -107,6 +107,7 @@ html {
 .container .kiri img:hover {
   transform: scale(1.1);
   cursor: pointer;
+  filter: drop-shadow(4px 4px 4px grey);
 }
 
 .kanan {
