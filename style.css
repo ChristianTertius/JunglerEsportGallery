@@ -408,6 +408,12 @@ nav ul li a:hover {
     display: flex;
   }
 
+  nav {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+
   nav .logo h4 {
     font-size: 20px;
     /* text-align: center; */
