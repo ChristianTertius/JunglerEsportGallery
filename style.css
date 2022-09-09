@@ -22,6 +22,13 @@ html {
   scroll-padding-top: 8rem;
 }
 
+/* Coba Animation Start*/
+.container .kanan .bawah p {
+  animation: ilang 0.9s ease-in-out infinite alternate;
+}
+
+/* Coba Animation End */
+
 /* Scroll bar Style */
 /* width */
 ::-webkit-scrollbar {
@@ -102,6 +109,7 @@ html {
 
 .container .kiri img {
   transition: 0.3s;
+  animation: animation 0.9s ease-in-out infinite alternate;
 }
 
 .container .kiri img:hover {
@@ -589,5 +597,39 @@ nav ul li a:hover {
 
   .footer__nav {
     flex: 2 0px;
+  }
+}
+
+/* Keyframes */
+@keyframes animation {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(20px);
+  }
+}
+
+/* @keyframes ilang {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+} */
+
+@keyframes ilang {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
